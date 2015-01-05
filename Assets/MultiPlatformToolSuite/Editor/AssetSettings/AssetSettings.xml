@@ -1,0 +1,11 @@
+<AssetSettings>
+	<Configuration>
+		<Name>Standalone</Name>
+	</Configuration>
+	<Configuration>
+		<Name>iPhone</Name>
+	</Configuration>
+	<Configuration>
+		<Name>iPad</Name>
+	</Configuration>
+</AssetSettings>

@@ -1,0 +1,8 @@
+CREATE TABLE "upload_queue" (
+  "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "date_added" TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+  "last_attempt" TIMESTAMP,
+  "endpoint" TEXT,
+  "method" TEXT DEFAULT "POST" NOT NULL,
+  "data" TEXT
+);

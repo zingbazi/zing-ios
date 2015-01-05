@@ -1,0 +1,20 @@
+[
+  {
+    "text":"Who was the first black president of the United States?",
+    "incorrect":["Martin Luther King, Jr.", "Jimi Hendrix", "Tiger Woods"],
+    "correct":"Barack Obama",
+    "level":1,
+    "weight":0.5,
+    "hint":"He was a congressman from Chicago",
+    "category":"Politics"
+  },
+  {
+    "text":"What is the voting age in Presidential Elections?",
+    "incorrect":["15", "16", "21"],
+    "correct":"18",
+    "level":1,
+    "weight":0.5,
+    "hint":"It's different from the legal drinking age.",
+    "category":"The Law"
+  }
+]

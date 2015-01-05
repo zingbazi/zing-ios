@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: b46204b3e16c29641bf861662aeea965
+labels:
+- retro
+- vintage
+- sfx
+- soundfx
+- fx
+- soundeffects
+- oldschool
+- sound
+- sounds
+- soundcollection
+- soundeffectscollection
+- productioneffects
+- panozk
+- indie
+- ui
+- userinterface
+- interface
+- menu
+- button
+- click
+AudioImporter:
+  serializedVersion: 4
+  format: -1
+  quality: .435000002
+  stream: 1
+  3D: 1
+  forceToMono: 1
+  useHardware: 0
+  loopable: 0
+  userData: 

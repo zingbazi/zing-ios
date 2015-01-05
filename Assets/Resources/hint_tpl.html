@@ -1,0 +1,78 @@
+<!-- Copyright (c) 2012 Empirical Development LLC. All rights reserved. -->
+<html lang="fa">
+	<head>
+		<title>%title%</title>
+		
+		<meta name="viewport" content="user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		
+		<style type="text/css">
+			
+			@-viewport {
+				width: device-width;
+				zoom: 0;
+				max-zoom: 0;
+				orientation: portrait;
+				user-scalable: false;
+			}
+			
+			@font-face {
+				font-family: 'fefont'; /*a name to be used later*/
+			    src: url('%font_url%'); /*URL to font*/
+			}
+			
+			body {
+				font-family: 'fefont';
+				font-size: 15px;
+				padding: 20px, 5px, 5px, 5px;
+				margin-top: 40px;
+			}
+			
+			#top-header {
+				width: 90%; 
+				min-height: 200px;
+				margin-top: 10px auto;
+								
+				padding: 5px 5px 5px 5px;
+				border: 2 solid gray;
+				background: -webkit-gradient(radial, center center, 0, center center, 500, from(#FFFFFF), to(#E8E8E8));
+				text-align: center;
+				font-size: 55px;
+				margin-left: auto;
+				margin-right: auto;
+				
+				-webkit-border-radius: 15px;
+				-moz-border-radius: 15px;
+				border-radius: 15px;
+				
+				-webkit-box-shadow: 5px 5px 1px 5px gray;
+				-moz-box-shadow: 5px 5px 1px 5px gray;
+				box-shadow: 5px 5px 1px 5px gray;
+				
+				vertical-align: middle;
+			}
+			
+			#text-explaination {
+				direction: rtl;
+				font-size: 50px;
+				width: 85%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div id="top-header">
+			<p style="text-align:middle;">%top_header%</p>
+		</div>
+		
+		<br /><br />
+		
+		<div id="text-explaination">
+			<p>%text_explaination%</p>
+		</div>
+					
+	</body>
+</html>

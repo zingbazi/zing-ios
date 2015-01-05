@@ -1,0 +1,1478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Production UI 768
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 31e6a0af636514fdd8593a2f805e621c, type: 2}
+  sprites:
+  - name: TabCorrect
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 661
+      width: 44
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 661
+      width: 44
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TimerBG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1180
+      width: 285
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1180
+      width: 285
+      height: 229
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonWhitePressed
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1145
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 1194
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NameBG
+    outer:
+      serializedVersion: 2
+      x: 769
+      y: 1418
+      width: 768
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 1418
+      width: 768
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TabIncorrect
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 856
+      width: 44
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 856
+      width: 44
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BottomPlayBar
+    outer:
+      serializedVersion: 2
+      x: 769
+      y: 1539
+      width: 768
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 1539
+      width: 768
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBlack
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1045
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 1094
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 260
+      width: 111
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 302
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconRoundComplete
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 1
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DefaultUserSm
+    outer:
+      serializedVersion: 2
+      x: 1876
+      y: 1576
+      width: 44
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1876
+      y: 1576
+      width: 44
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PausePressed
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 258
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 258
+      width: 137
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pauses3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 595
+      width: 193
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 595
+      width: 193
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Back
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 1095
+      width: 77
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 1095
+      width: 1
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NameBGLeft
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 1619
+      width: 384
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 1619
+      width: 384
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TabInactive
+    outer:
+      serializedVersion: 2
+      x: 239
+      y: 856
+      width: 44
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 239
+      y: 856
+      width: 44
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FacebookIcon
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 1024
+      width: 71
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 1024
+      width: 71
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonLCD
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 845
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 887
+      width: 1
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScoresAlternatingBottom
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1334
+      width: 699
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 1334
+      width: 699
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBluePressed
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 745
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 794
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeaderBarTemp
+    outer:
+      serializedVersion: 2
+      x: 729
+      y: 1776
+      width: 768
+      height: 272
+    inner:
+      serializedVersion: 2
+      x: 729
+      y: 1776
+      width: 768
+      height: 272
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NameBGRight
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 1418
+      width: 384
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 1418
+      width: 384
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EverythingButton
+    outer:
+      serializedVersion: 2
+      x: 1003
+      y: 1365
+      width: 659
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 1063
+      y: 1386
+      width: 539
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconSP
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 40
+      width: 116
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 40
+      width: 116
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonGreenPressed
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 645
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 694
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pause
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 258
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 258
+      width: 137
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScoresAlternatingMid
+    outer:
+      serializedVersion: 2
+      x: 729
+      y: 1751
+      width: 697
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 1762
+      width: 517
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonWhite
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 545
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 327
+      y: 585
+      width: 17
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RoundProgress
+    outer:
+      serializedVersion: 2
+      x: 1779
+      y: 1895
+      width: 265
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 1779
+      y: 1895
+      width: 265
+      height: 153
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DefaultUserLg
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1534
+      width: 88
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1534
+      width: 88
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Disclosure
+    outer:
+      serializedVersion: 2
+      x: 1531
+      y: 1741
+      width: 30
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1531
+      y: 1741
+      width: 30
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconMP
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1245
+      width: 116
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 1245
+      width: 116
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonGreen
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 445
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 494
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconIncorrect
+    outer:
+      serializedVersion: 2
+      x: 1876
+      y: 1539
+      width: 40
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1876
+      y: 1539
+      width: 40
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScoresBG
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 1355
+      width: 716
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 1381
+      width: 536
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconMenu
+    outer:
+      serializedVersion: 2
+      x: 1427
+      y: 1738
+      width: 44
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1427
+      y: 1738
+      width: 44
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconCorrect
+    outer:
+      serializedVersion: 2
+      x: 1995
+      y: 1578
+      width: 40
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1995
+      y: 1578
+      width: 40
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SectionArrow
+    outer:
+      serializedVersion: 2
+      x: 2015
+      y: 1852
+      width: 26
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 2015
+      y: 1852
+      width: 26
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GameCount
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 346
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 386
+      width: 18
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RoundBar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1410
+      width: 768
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1410
+      width: 768
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BackPressed
+    outer:
+      serializedVersion: 2
+      x: 1798
+      y: 1534
+      width: 77
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1798
+      y: 1534
+      width: 77
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBlue
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 945
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 335
+      y: 994
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pauses1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 790
+      width: 193
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 790
+      width: 193
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconScores
+    outer:
+      serializedVersion: 2
+      x: 1779
+      y: 1735
+      width: 68
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1779
+      y: 1735
+      width: 68
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconLogin
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 2
+      width: 68
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 2
+      width: 68
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Help
+    outer:
+      serializedVersion: 2
+      x: 1923
+      y: 1615
+      width: 118
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 1923
+      y: 1615
+      width: 118
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RoundBG
+    outer:
+      serializedVersion: 2
+      x: 1923
+      y: 1543
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1958
+      y: 1578
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconAbout
+    outer:
+      serializedVersion: 2
+      x: 1917
+      y: 1735
+      width: 68
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1917
+      y: 1735
+      width: 68
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconSettings
+    outer:
+      serializedVersion: 2
+      x: 1848
+      y: 1735
+      width: 68
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1848
+      y: 1735
+      width: 68
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pauses2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 985
+      width: 193
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 985
+      width: 193
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BGStretch
+    outer:
+      serializedVersion: 2
+      x: 769
+      y: 1415
+      width: 768
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 1415
+      width: 768
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UniversalTile
+    outer:
+      serializedVersion: 2
+      x: 1498
+      y: 1768
+      width: 280
+      height: 280
+    inner:
+      serializedVersion: 2
+      x: 1499
+      y: 1769
+      width: 278
+      height: 278
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Line
+    outer:
+      serializedVersion: 2
+      x: 769
+      y: 1534
+      width: 768
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 1534
+      width: 768
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextField
+    outer:
+      serializedVersion: 2
+      x: 1986
+      y: 1749
+      width: 47
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 2009
+      y: 1771
+      width: 1
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_03
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 1139
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 1139
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_02
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 1204
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 1204
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_08
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 1269
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 1269
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_10
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 65
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 65
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_12
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 130
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 130
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_04
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 195
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 195
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_11
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 63
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 63
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_07
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 128
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 128
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_01
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 193
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 193
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_06
+    outer:
+      serializedVersion: 2
+      x: 219
+      y: 431
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 219
+      y: 431
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_05
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 596
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 596
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSpinner64_09
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 791
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 791
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteTile
+    outer:
+      serializedVersion: 2
+      x: 1498
+      y: 1735
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1499
+      y: 1736
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlueProgressBar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 496
+      width: 235
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 496
+      width: 235
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlackProgressBar
+    outer:
+      serializedVersion: 2
+      x: 1779
+      y: 1796
+      width: 235
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1779
+      y: 1796
+      width: 235
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ReviewBottomBG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1534
+      width: 768
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1534
+      width: 768
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PageControlFG
+    outer:
+      serializedVersion: 2
+      x: 1472
+      y: 1751
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1472
+      y: 1751
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PageControlBG
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 1743
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 1743
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScrollBarBG
+    outer:
+      serializedVersion: 2
+      x: 1587
+      y: 1747
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 1596
+      y: 1756
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScrollBarFG
+    outer:
+      serializedVersion: 2
+      x: 1608
+      y: 1747
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 1617
+      y: 1756
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MyGamesNumbers640
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 129
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 129
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RoundNumbers640
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 17
+      width: 64
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 17
+      width: 64
+      height: 240
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScoreNumbers640
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 1534
+      width: 170
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 1534
+      width: 170
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AboutLogo
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1735
+      width: 728
+      height: 313
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1735
+      width: 728
+      height: 313
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ToggleWell
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 396
+      width: 218
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 396
+      width: 218
+      height: 99
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ToggleButton
+    outer:
+      serializedVersion: 2
+      x: 1923
+      y: 1416
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 1923
+      y: 1416
+      width: 117
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
