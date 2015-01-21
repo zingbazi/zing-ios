@@ -22,6 +22,11 @@ void    UnityBlitToSystemFB(unsigned tex, unsigned w, unsigned h, unsigned sysw,
 
 extern GLint gDefaultFBO;
 
+void    UnityBlitToSystemFB(unsigned tex, unsigned w, unsigned h, unsigned sysw, unsigned sysh)
+{
+    
+}
+
 
 extern "C" void InitEAGLLayer(void* eaglLayer, bool use32bitColor);
 
@@ -145,6 +150,16 @@ void CreateUnityRenderBuffers(UnityRenderingSurface* surface)
 	surface->unityDepthBuffer = UnityCreateUpdateExternalDepthSurface(api, surface->unityDepthBuffer, 0, surface->depthRB, w, h, surface->use24bitDepth);
 }
 
+extern void* UnityCreateUpdateExternalColorSurface(int api, void* surf, unsigned texid, unsigned rbid, int width, int height, bool is32bit)
+{
+    return 0;
+}
+
+extern void* UnityCreateUpdateExternalDepthSurface(int api, void* surf, unsigned texid, unsigned rbid, int width, int height, bool is24bit)
+{
+    return 0;
+}
+
 void DestroySystemRenderingSurface(UnityRenderingSurface* surface)
 {
 	EAGLContextSetCurrentAutoRestore autorestore(surface->context);
@@ -233,6 +248,16 @@ void DestroyUnityRenderBuffers(UnityRenderingSurface* surface)
 		UnityDestroyExternalDepthSurface(surface->context.API, surface->unityDepthBuffer);
 		surface->unityDepthBuffer = 0;
 	}
+}
+
+extern void UnityDestroyExternalColorSurface(int api, void* surf)
+{
+    
+}
+
+extern void UnityDestroyExternalDepthSurface(int api, void* surf)
+{
+    
 }
 
 void PreparePresentRenderingSurface(UnityRenderingSurface* surface, EAGLContext* mainContext)

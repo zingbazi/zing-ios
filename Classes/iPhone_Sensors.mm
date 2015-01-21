@@ -308,6 +308,26 @@ UnitySetLastHeading(float magneticHeading,
 					float rawX, float rawY, float rawZ,
 					double timestamp);
 
+void
+UnitySetLastHeading(float magneticHeading,
+                    float trueHeading,
+                    float rawX, float rawY, float rawZ,
+                    double timestamp)
+{
+    
+}
+
+void
+UnitySetLastLocation(double timestamp,
+                     float latitude,
+                     float longitude,
+                     float altitude,
+                     float horizontalAccuracy,
+                     float verticalAccuracy)
+{
+    
+}
+
 struct LocationServiceInfo
 {
 private:

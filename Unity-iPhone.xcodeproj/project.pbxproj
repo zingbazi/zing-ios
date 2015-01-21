@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05122DAA0B7941DCA399E149 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A268D11E1B4E629B30C297 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0C6AA8031A5D7AE7007D9ADB /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9221148E71AB44CF9D9ABE2F /* libz.1.1.3.dylib */; };
 		0CCC27341A52A305005410F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC27331A52A305005410F9 /* Images.xcassets */; };
 		0CCC27361A52B1BF005410F9 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCC27351A52B1BF005410F9 /* libiPhone-lib.a */; };
 		0CCC273D1A5817EA005410F9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCC273C1A5817EA005410F9 /* GameKit.framework */; };
@@ -66,7 +67,6 @@
 		8AFA69D9161605E7009663A5 /* iPhone_OrientationSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA69D8161605E7009663A5 /* iPhone_OrientationSupport.mm */; };
 		970A31B212C742A2945AA8E9 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 72635FED7E80406A9761F0E5 /* forward.png */; };
 		9C755BA755774736A9EAC84D /* EtceteraManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2ACAFF62C07745969AC45099 /* EtceteraManager.mm */; };
-		A4343C2C85204B8C8102098B /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9221148E71AB44CF9D9ABE2F /* libz.1.1.3.dylib */; };
 		A55D9469BD9E423884A90C30 /* P31MutableOauthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DD8AA82D704F75814FCD02 /* P31MutableOauthRequest.m */; };
 		AAFD45E755144DBD8235596F /* AddAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A173B2EF7D84C35806ECD5C /* AddAccountController.m */; };
 		B99179C602794DE2BAF3C395 /* FacebookBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3995DF53FD8B4467B4B2BBC9 /* FacebookBinding.m */; };
@@ -119,6 +119,11 @@
 		082FB10060274FA891D02980 /* FBTestSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBTestSession.h; path = ../Assets/Editor/SocialNetworking/FacebookSDK/FBTestSession.h; sourceTree = "<group>"; };
 		08B24F75137BFDFA00FBA309 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		09F81D15DBF441DFAFB94B02 /* EtceteraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EtceteraManager.h; path = ../Assets/Editor/Etcetera/EtceteraManager.h; sourceTree = "<group>"; };
+		0C6AA7FB1A5D6ADD007D9ADB /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.1.2.5.dylib; sourceTree = DEVELOPER_DIR; };
+		0C6AA7FD1A5D7A8E007D9ADB /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		0C6AA7FF1A5D7AC3007D9ADB /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		0C6AA8001A5D7AC3007D9ADB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0C6AA8041A5D7B43007D9ADB /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		0CCC27331A52A305005410F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Unity-iPhone/Images.xcassets"; sourceTree = "<group>"; };
 		0CCC27351A52B1BF005410F9 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "../../../libiPhone-lib.a/libiPhone-lib.a"; sourceTree = "<group>"; };
 		0CCC27371A540E0C005410F9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -288,6 +293,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6AA8031A5D7AE7007D9ADB /* libz.1.1.3.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */,
 				83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */,
@@ -309,7 +315,6 @@
 				56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */,
 				56B7960F1442E1770026B3DD /* CoreMotion.framework in Frameworks */,
 				6C12B5DBD47443F4B4193793 /* MessageUI.framework in Frameworks */,
-				A4343C2C85204B8C8102098B /* libz.1.1.3.dylib in Frameworks */,
 				57D01AFE85AE49AE8B79C2CA /* AdSupport.framework in Frameworks */,
 				05122DAA0B7941DCA399E149 /* Accounts.framework in Frameworks */,
 				F05177D00A1F438BB33F337D /* Social.framework in Frameworks */,
@@ -393,6 +398,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C6AA8041A5D7B43007D9ADB /* libstdc++.6.0.9.dylib */,
+				0C6AA7FF1A5D7AC3007D9ADB /* libz.1.dylib */,
+				0C6AA8001A5D7AC3007D9ADB /* libz.dylib */,
+				0C6AA7FD1A5D7A8E007D9ADB /* libz.1.2.5.dylib */,
+				0C6AA7FB1A5D6ADD007D9ADB /* libz.1.2.5.dylib */,
 				0CCC273C1A5817EA005410F9 /* GameKit.framework */,
 				0CCC27371A540E0C005410F9 /* libxml2.dylib */,
 				71E39D365F9A48158B4CFD90 /* libsqlite3.0.dylib */,
@@ -730,6 +740,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
@@ -741,26 +752,24 @@
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_NO_PIE = YES;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/neror/Work/Empirical/IFESTrivia/Assets/Editor/SocialNetworking/**",
 					"$(inherited)",
 					"$(SRCROOT)",
-					"\"$(SRCROOT)/Libraries\"",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib",
 					"/Users/ma/Downloads/libiPhone-lib.a",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-mno-thumb";
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					CoreMotion,
-					"-weak-lSystem",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = zing;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -770,6 +779,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
@@ -779,27 +789,24 @@
 				GCC_PREFIX_HEADER = Classes/iPhone_target_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_NO_PIE = YES;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/neror/Work/Empirical/IFESTrivia/Assets/Editor/SocialNetworking/**",
 					"$(inherited)",
 					"$(SRCROOT)",
-					"\"$(SRCROOT)/Libraries\"",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib",
 					"/Users/ma/Downloads/libiPhone-lib.a",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-mno-thumb";
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					CoreMotion,
-					"-weak-lSystem",
-					"-Wl,-S,-x",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-WI-S-x";
 				PRODUCT_NAME = zing;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

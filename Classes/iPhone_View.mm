@@ -40,7 +40,10 @@ UIViewController*   UnityGetGLViewController()  { return _viewController; }
 UIView*             UnityGetGLView()            { return _mainDisplay->view; }
 ScreenOrientation   UnityCurrentOrientation()   { return _curOrientation; }
 
-
+bool UnityUseAnimatedAutorotation()
+{
+    return YES;
+}
 
 void UnityStartActivityIndicator()
 {

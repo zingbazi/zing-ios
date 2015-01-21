@@ -78,9 +78,24 @@ enum TargetResolution
     kTargetResolution768p = 7
 };
 
+extern bool UnityUse24bitDepthBuffer()
+{
+    return YES;
+}
+
 int UnityGetTargetResolution();
 int UnityGetDeviceGeneration();
 void UnityRequestRenderingResolution(unsigned w, unsigned h);
+
+void    UnityGetRenderingResolution(unsigned* w, unsigned* h)
+{
+    
+}
+
+int UnityGetDeviceGeneration()
+{
+    return 0;
+}
 
 void SensorsCleanup();
 

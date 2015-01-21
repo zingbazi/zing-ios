@@ -331,6 +331,11 @@ extern "C" void InitEAGLLayer(void* eaglLayer, bool use32bitColor);
 
 @end
 
+void UnityDisableRenderBuffers(void*, void*)
+{
+    
+}
+
 //==============================================================================
 //
 //  Unity Interface:
@@ -410,6 +415,11 @@ void UnityDisplayManager_SetRenderingResolution(void* nativeDisplay, int w, int 
 extern "C" const UnityRenderingSurface* UnityDisplayManager_MainDisplayRenderingSurface()
 {
     return &[[DisplayManager Instance] mainDisplay]->surface;
+}
+
+extern void UnityUpdateDisplayList()
+{
+    
 }
 
 
