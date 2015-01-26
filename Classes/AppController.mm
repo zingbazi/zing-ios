@@ -467,7 +467,7 @@ void UnityInitTrampoline()
     _mainDisplay = [[DisplayManager Instance] mainDisplay];
     [_mainDisplay createView:YES showRightAway:NO];
 
-    [KeyboardDelegate Initialize];
+    [KeyboardDelegate initialize];
     CreateViewHierarchy();
 
     [self performSelector:@selector(startUnity:) withObject:application afterDelay:0];
@@ -540,7 +540,7 @@ void UnityInitTrampoline()
 // BEGIN AUTOPILOT IMPLMENETATION - automatically generated code, edit at your own risk.
 extern "C" void TestFlight_TakeOff()
 {
-	[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] identifierForVendor]];
+	[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
 	[TestFlight takeOff:@"59ce4dc9-3efe-43ad-99d4-87a78fb7a9ea"];
 }
 // END AUTOPILOT IMPLMENETATION

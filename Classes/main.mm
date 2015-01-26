@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 		return -1;
 
 	RegisterMonoModules();
+    
 	NSLog(@"-> registered mono modules %p\n", &constsection);
 
 	NSAutoreleasePool*		pool = [NSAutoreleasePool new];

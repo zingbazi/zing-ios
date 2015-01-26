@@ -10,6 +10,7 @@
 		05122DAA0B7941DCA399E149 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A268D11E1B4E629B30C297 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C6AA8031A5D7AE7007D9ADB /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9221148E71AB44CF9D9ABE2F /* libz.1.1.3.dylib */; };
+		0CBE4E3E1A73DA1100E5B7B1 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFB70E8000A5005D6AD8 /* AppController.mm */; };
 		0CCC27341A52A305005410F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC27331A52A305005410F9 /* Images.xcassets */; };
 		0CCC27361A52B1BF005410F9 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCC27351A52B1BF005410F9 /* libiPhone-lib.a */; };
 		0CCC273D1A5817EA005410F9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCC273C1A5817EA005410F9 /* GameKit.framework */; };
@@ -55,7 +56,6 @@
 		83DEA7440EACED0700D8A291 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA7420EACED0700D8A291 /* Icon.png */; };
 		85859DC563B44FBBAE91CC90 /* SharingManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5803C1D222F7461A87D4002D /* SharingManager.mm */; };
 		8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FED481649699200E9727D /* EAGLContextHelper.mm */; };
-		8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A142DC51636943E00DD87CA /* Keyboard.mm */; };
 		8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FFFAC16512A9000DD0934 /* GlesHelper.mm */; };
 		8A21AED41622F59300AF8007 /* UnityViewControllerBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A21AED31622F59300AF8007 /* UnityViewControllerBase.mm */; };
 		8A2EF43E138549090070AA2F /* iPhone_Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF43C138549090070AA2F /* iPhone_Profiler.cpp */; };
@@ -73,7 +73,6 @@
 		C6F184ED14354BA6A15A9D41 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DD95D4EF4C046BFA854C52C /* FacebookSDKResources.bundle */; };
 		CE159D5D3E114CCD87E4924A /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = A3ABE81B205E4D0887C626B1 /* sha1.c */; };
 		D7A9CEB018214C6095BA728A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E39D365F9A48158B4CFD90 /* libsqlite3.0.dylib */; };
-		D82DCFC10E8000A5005D6AD8 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFB70E8000A5005D6AD8 /* AppController.mm */; };
 		D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		D82DCFC50E8000A5005D6AD8 /* RegisterClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBD0E8000A5005D6AD8 /* RegisterClasses.cpp */; };
 		D8A1C7000E80637F000160D4 /* Assembly-CSharp-firstpass.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7000E80637F100160D4 /* Assembly-CSharp-firstpass.dll.s */; };
@@ -673,7 +672,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82DCFC10E8000A5005D6AD8 /* AppController.mm in Sources */,
 				D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */,
 				D82DCFC50E8000A5005D6AD8 /* RegisterClasses.cpp in Sources */,
 				D8A1C7000E80637F000160D4 /* Assembly-CSharp-firstpass.dll.s in Sources */,
@@ -701,7 +699,6 @@
 				8A9FCB131617295F00C05364 /* ActivityIndicator.mm in Sources */,
 				8A592F4B16176267006B38FC /* VideoViewController.mm in Sources */,
 				8A21AED41622F59300AF8007 /* UnityViewControllerBase.mm in Sources */,
-				8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */,
 				8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */,
 				8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */,
 				8A5E0B9116849D1800CBB6FE /* DisplayManager.mm in Sources */,
@@ -725,6 +722,7 @@
 				CE159D5D3E114CCD87E4924A /* sha1.c in Sources */,
 				4EDD69DF9DED44D494FD0260 /* SharingBinding.m in Sources */,
 				85859DC563B44FBBAE91CC90 /* SharingManager.mm in Sources */,
+				0CBE4E3E1A73DA1100E5B7B1 /* AppController.mm in Sources */,
 				1C4EF28484404B2B9DBB0209 /* TwitterBinding.m in Sources */,
 				6697CA10D2504A6F88974C96 /* TwitterManager.mm in Sources */,
 			);
@@ -751,7 +749,7 @@
 				GCC_PREFIX_HEADER = Classes/iPhone_target_Prefix.pch;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_NO_PIE = YES;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LIBRARY_SEARCH_PATHS = (
@@ -788,7 +786,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/iPhone_target_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_NO_PIE = YES;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LIBRARY_SEARCH_PATHS = (
